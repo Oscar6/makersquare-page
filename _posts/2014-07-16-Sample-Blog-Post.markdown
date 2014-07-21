@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: New Blog Post
+Title: Sample Blog Post
 categories: 
 ---
 
