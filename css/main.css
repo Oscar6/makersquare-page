@@ -4,16 +4,20 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: orange;
 }
 
-html, body { height: 100%; }
+html, body { 
+  height: 100%; 
+  background-color: orange;
+}
 
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-color: orange;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
@@ -41,10 +45,10 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 0px solid #333;
+  border-bottom: 0px solid #e8e8e8;
   min-height: 56px;
-  background-color: white;
+  background-color: orange;
 }
 
 .site-title,
@@ -53,8 +57,8 @@ a:visited { color: #205caa; }
   display: block;
   color: #333;
   font-size: 26px;
-  letter-spacing: -1px;
-  float: left;
+  letter-spacing: 3px;
+  text-align: center;
   line-height: 56px;
   position: relative;
   z-index: 1;
@@ -69,15 +73,16 @@ a:visited { color: #205caa; }
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #727272;
-  letter-spacing: -.5px;
+  color: blue;
+  letter-spacing: 5px;
 }
 
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 0px solid #e8e8e8;
   padding: 30px 0;
+  background-color: orange;
 }
 
 .footer-heading {
@@ -137,7 +142,7 @@ a:visited { color: #205caa; }
 
 .page-content {
   padding: 30px 0;
-  background-color: #fff;
+  background-color: orange;
 }
 
 
@@ -146,7 +151,9 @@ a:visited { color: #205caa; }
 
 .home h1 { margin-bottom: 25px; }
 
-.posts { list-style-type: none; }
+.posts { list-style-type: none; 
+  font-family: Arial;
+}
 
 .posts li { margin-bottom: 30px; }
 
@@ -258,7 +265,7 @@ a:visited { color: #205caa; }
   border-radius: 3px;
 }
 
-.post pre.terminal code { background-color: #333; }
+.post pre.terminal code { background-color: red; }
 
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
@@ -378,7 +385,7 @@ a:visited { color: #205caa; }
   .site-nav .menu-icon svg { width: 18px; height: 16px; }
 
   .site-nav .trigger {
-    clear: both;
+    text-align: center;
     margin-bottom: 5px;
     display: none;
   }
