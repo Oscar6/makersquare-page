@@ -4,8 +4,8 @@ email: oscar.m1024@gmail.com
 description: "Purpose for #StopTheFlop is to expose floppers in the most watched sport in the world Football. Fútbol. Soccer."
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_hashtag: "StopTheFlop"
+github_username:  Oscar6
 
 # Build settings
 markdown: kramdown
